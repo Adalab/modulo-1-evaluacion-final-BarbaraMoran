@@ -1,7 +1,7 @@
 .section1 {
   margin: 30px 15px 45px;
   text-align: left;
-  width: 290px;
+  background-color: #ffffff;
 
   &__article {
     line-height: 30px;
@@ -36,6 +36,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #ffffff;
 
     .linkcontainer__link {
       line-height: 45px;
@@ -46,5 +47,20 @@
       font-family: $fontfamily;
       font-weight: 500;
     }
+
+    .linkcontainer__link:hover {
+      color: #fff;
+    }
   }
+
+  &__linkcontainer:hover {
+    background-color: #f26002;
+  }
+}
+
+.section2__article {
+  margin: 0px 15px 0px 15px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 105px 3 (133px) 150px;
 }
