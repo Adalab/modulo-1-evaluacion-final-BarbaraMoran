@@ -30,17 +30,35 @@
     font-family: $font-title;
     text-transform: uppercase;
     word-spacing: 100vw;
+    line-height: 55px;
+
+    @media all and (min-width: 768px) {
+      margin-bottom: 20px;
+      font-size: 80px;
+      line-height: 106px;
+    }
+
+    @media all and (min-width: 1280px) {
+      margin-bottom: 0px;
+      font-size: 100px;
+      line-height: 132px;
+    }
   }
 
   &__subtitle {
+    margin-bottom: 45px;
     text-align: center;
     font-size: 16px;
     font-family: $fontfamily;
     font-weight: lighter;
+
+    @media all and (min-width: 768px) {
+      margin-bottom: 30px;
+      font-size: 24px;
+    }
   }
 
   &__linkcontainer2 {
-    margin-top: 45px;
     width: 45px;
     height: 45px;
     display: flex;
@@ -53,6 +71,8 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      width: 45px;
+      height: 45px;
     }
   }
 }
