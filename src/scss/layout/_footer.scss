@@ -1,0 +1,42 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #304268;
+  font-family: $fontfamily;
+  line-height: 30px;
+
+  &__scrollbutton {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 50%;
+    transform: translate(0, -50%);
+    margin-bottom: 37.5px;
+
+    .scrollbutton__link {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  &__nav {
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-size: 16px;
+
+    .item__link {
+      color: #ffffff;
+    }
+  }
+
+  &__small {
+    color: #ffffff;
+    font-size: 14px;
+  }
+}
