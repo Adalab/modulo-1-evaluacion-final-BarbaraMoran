@@ -7,6 +7,19 @@
   font-family: $fontfamily;
   line-height: 30px;
 
+  @media all and (min-width: 768px) {
+    padding: 45px 39px;
+    flex-direction: row;
+    justify-content: center;
+    text-align: left;
+    position: relative;
+    gap: 30px;
+  }
+
+  @media all and (min-width: 1280px) {
+    padding: 45px 370px;
+  }
+
   &__scrollbutton {
     width: 45px;
     height: 45px;
@@ -17,7 +30,12 @@
     border-radius: 50%;
     position: absolute;
     transform: translate(0, -50%);
-    margin-bottom: 37.5px;
+
+    @media all and (min-width: 768px) {
+      top: 0;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
 
     .scrollbutton__link {
       display: flex;
@@ -34,6 +52,16 @@
     margin-bottom: 30px;
     font-size: 16px;
 
+    @media all and (min-width: 768px) {
+      width: 210px;
+      height: 150px;
+      margin-bottom: 0;
+    }
+
+    @media all and (min-width: 1280px) {
+      width: 159px;
+    }
+
     .item__link {
       color: #ffffff;
     }
@@ -41,12 +69,31 @@
 
   &__nav1 {
     margin-top: 60px;
+
+    @media all and (min-width: 768px) {
+      margin-top: 0;
+    }
+
+    @media all and (min-width: 1280px) {
+      width: 161px;
+    }
   }
 
   &__small {
     color: #ffffff;
     font-size: 14px;
     margin-bottom: 45px;
+
+    @media all and(min-width: 768px) {
+      order: -1;
+      width: 210px;
+      height: 150px;
+      margin-bottom: 0px;
+    }
+
+    @media all and (min-width: 1280px) {
+      width: 159px;
+    }
 
     .copy {
       display: block;
