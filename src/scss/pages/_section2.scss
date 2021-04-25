@@ -96,12 +96,14 @@
         }
 
         .linkcontainer__link {
+          display: block;
           color: #ffffff;
+          width: 100%;
         }
       }
 
       .article__linkcontainer:hover {
-        background-color: #f26002;
+        transform: scale(1.3);
       }
     }
   }
