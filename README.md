@@ -75,16 +75,4 @@ src
     └─ partials- Ficheros .html que corresponden a diferentes las partes del index.html. Contamos con partials para el <header>, <main> (con sus subpartials bautizados como section1 y section2) y el <footer>.
 ```
 
-## Sobre la web.
-
-- **Cabecera** (header)
-  Cuenta con una imagen de fondo, dos títulos, un botón fijado para que siempre se mantenga arriba a la izda y un botón de scroll que nos dirige a la sección 2.
-
-Los elementos están dispuestos en columna con flexbox. También he usado flexbox para centrar las imágenes de cada uno de los botones. El botón fijo está anclado con position: fixed, sacado del flujo de la página y situado a una capa superior que el resto de elementos de la página.
-
-- **Main**
-
-El main está dividido en 2 secciones bautizadas como "section1" y "section2".
-La 1ª sección está maquetada haciendo de la disposición mediante márgenes y paddings. Cuenta con un botón
-
 Si tienes cualquier duda o cualquier sugerencia para mejorar el proyecto puedes ponerte en contacto conmigo a tráves de las issues o mandarme un email a barbaramoranrr@gmail.com. ¡Muchas gracias por tu atención!

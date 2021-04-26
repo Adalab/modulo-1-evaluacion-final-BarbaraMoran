@@ -84,6 +84,8 @@
       width: 184px;
       margin: auto;
       background-color: #f26002;
+      transform: scale(1);
+      transition: transform ease 0.5s;
       border-radius: 22.5px;
 
       @media all and (min-width: 768px) {
