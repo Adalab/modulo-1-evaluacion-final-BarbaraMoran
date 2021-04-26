@@ -26,7 +26,8 @@
     }
 
     .article__title {
-      font-family: $font-title;
+      font-family: $fontfamily-title;
+      color: $fontcolor;
       text-transform: capitalize;
       font-size: 24px;
       margin-bottom: 15px;

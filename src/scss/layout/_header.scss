@@ -7,7 +7,7 @@
   background: url("../images/cover.jpg") no-repeat;
   background-size: cover;
   position: relative;
-  color: #ffffff;
+  color: $headercolor;
 
   &__linkcontainer {
     width: 44px;
@@ -27,7 +27,7 @@
     margin-bottom: 10px;
     text-align: center;
     font-size: 42px;
-    font-family: $font-title;
+    font-family: $fontfamily-title;
     text-transform: uppercase;
     word-spacing: 100vw;
     line-height: 55px;

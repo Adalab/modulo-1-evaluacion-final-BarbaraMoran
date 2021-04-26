@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  background-color: #304268;
+  background-color: $footerbackground;
   font-family: $fontfamily;
   line-height: 30px;
 
@@ -63,7 +63,7 @@
     }
 
     .item__link {
-      color: #ffffff;
+      color: $linkcolor;
     }
   }
 
