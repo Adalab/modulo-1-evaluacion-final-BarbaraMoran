@@ -21,8 +21,6 @@ Este Kit incluye un motor de plantillas HTML, el preprocesador SASS y un servido
 npm install
 ```
 
-### Pasos para arrancar el proyecto:
-
 Una vez hemos instalado las dependencias, vamos a arrancar el proyecto. **El proyecto hay que arrancarlo cada vez que nos pongamos a programar.** Para ello ejecuta el comando:
 
 ```bash
@@ -74,5 +72,13 @@ src
     |
     └─ partials- Ficheros .html que corresponden a diferentes las partes del index.html. Contamos con partials para el <header>, <main> (con sus subpartials bautizados como section1 y section2) y el <footer>.
 ```
+
+### Sobre la página web:
+
+El footer y el header están maquetados utilizando flexbox y otras propiedades como position.
+La sección 1 (section1) se ha estructurado mediante el uso de margins y paddings.
+La sección 2 (section2) está realizada fundamentalmente mediante el sistema grid.
+
+### Contacto:
 
 Si tienes cualquier duda o cualquier sugerencia para mejorar el proyecto puedes ponerte en contacto conmigo a tráves de las issues o mandarme un email a barbaramoranrr@gmail.com. ¡Muchas gracias por tu atención!
