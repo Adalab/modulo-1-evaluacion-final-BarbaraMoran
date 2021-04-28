@@ -85,7 +85,8 @@
       line-height: 45px;
       width: 184px;
       margin: auto;
-      background-color: #f26002;
+      background-color: white;
+      border: #f26002 solid 2px;
       transform: scale(1);
       transition: transform ease 0.5s;
       border-radius: 22.5px;
@@ -100,7 +101,8 @@
 
       .linkcontainer__link {
         display: block;
-        color: #ffffff;
+        color: #f26002;
+        font-weight: 500;
         width: 100%;
       }
     }
