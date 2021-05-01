@@ -62,7 +62,7 @@ src
  |  └─ data.json
  ├─ images -> Incluye todas las imágenes del proyecto.
  |
- ├─ scss -- Fichero principal (styles.scss) donde se unen todas las hojas de estilo parciales que se encuentran en     |  |       las  carpetas de scss, además de los links externos a Google Fonts.
+ ├─ styles-- Fichero principal (styles.scss) donde se unen todas las hojas de estilo parciales que se encuentran en las  carpetas de scss, además de los links externos a Google Fonts.
  |  |
  |  ├─ core - Incluye hoja de reset y variables.
  |  ├─ layout - Incluye hojas de estilos del <footer>, <header> y lo específico del <body>.
