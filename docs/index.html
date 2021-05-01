@@ -18,11 +18,11 @@
   </head>
   <body>
     <header class="header" id="hero">
-      <div class="header__linkcontainer">
+      <nav class="header__linkcontainer">
         <a class="linkcontainer__link" title="Adalab" href="https://adalab.es/">
           <img class="link__img" src="./assets/images/ico-menu.svg" alt="menu" />
         </a>
-      </div>
+      </nav>
 
       <h1 class="header__title">Anonymous proxy</h1>
       <h2 class="header__subtitle">In hac habitasse platea dictumst.</h2>
@@ -32,7 +32,10 @@
           class="linkcontainer2__link"
           title="3 Reasons to purchase"
           href="#reasons"
-          ><img src="./assets/images/ico-scroll-down.svg" alt="scroll down"
+          ><img
+            class="link__pic"
+            src="./assets/images/ico-scroll-down.svg"
+            alt="scroll down"
         /></a>
       </div>
     </header>
@@ -49,7 +52,7 @@
         </article>
 
         <div class="section1__linkcontainer">
-          <a class="linkcontainer__link" href="https://adalab.es/" a>go</a>
+          <a class="linkcontainer__link" href="https://adalab.es/" title="Go">go</a>
         </div>
       </section>
 
@@ -58,7 +61,7 @@
 
            <article class="section2__reason">
                <h3 class="reason__title">Ut sed metus</h3>
-               <p class="reason__text">Lorem ipsum dolor sit amet, consectetur.</p>
+               <p class="reason__text">Lorem ipsum dolor sit amet, consecteur.</p>
            </article>
            <article class="section2__reason">
               <h3 class="reason__title">Curabitur ac erat</h3>
@@ -71,7 +74,7 @@
 
           <div class="section2__link">
               <div class="link__linkcontainer">
-              <a class="linkcontainer__link" href="https://adalab.es/">More reasons</a>
+              <a class="linkcontainer__link" href="https://adalab.es/" title="More reasons">More reasons</a>
           </div>
           </div>
         </section>
@@ -81,8 +84,8 @@
     <footer class="footer">
       
       <div class="footer__scrollbutton">
-        <a class="scrollbutton__link" title="3 Reasons to purchase" href="#hero"
-          ><img src="./assets/images/ico-arrow.svg" alt="scroll down"
+        <a class="scrollbutton__link" title="go up" href="#hero"
+          ><img class="link__arrow" src="./assets/images/ico-arrow.svg" alt="scroll up"
         /></a>
       </div>
 
@@ -128,6 +131,5 @@
 
       <small class="footer__small"> <span class="copy">&copy;2021</span><span class="author">we <i class="fas fa-heart"></i> components</small></span>
     </footer>
-
   </body>
 </html>
