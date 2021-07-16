@@ -1,9 +1,38 @@
-# Mi web starter kit
+# Página web estática Anonymous Proxy
 
-# Evaluación final Módulo 1 de Bárbara Morán.
+¡Hola! [Te presento](https://barbaramoran.github.io/static-website-anonymous-proxy/) mi prueba técnica de finalización del Módulo 1 de Adalab.
+Se trata de un proyecto de página web responsive realizada en **SCSS** y **HTML5** en base a un diseño dado a través de **Zeplin.**
 
-¡Hola! Te presento mi prueba técnica de finalización del Módulo 1 de Adalab.
-Se trata de un proyecto de página web responsive realizada en SCSS y HTML5 en base a un diseño dado. Si tienes permiso del administrador puedes consultar el modelo aquí: https://app.zeplin.io/project/5c8ff9170ffc6f2525b2790c.
+<a target="_blank" href="https://barbaramoran.github.io/static-website-anonymous-proxy/"><img src="https://i.postimg.cc/ry1D3qBz/anonymous.jpg"/></a>
+
+## Estructura de carpetas
+
+Mi proyecto de web está estructurado de la siguiente manera:
+
+```
+src
+ ├─ api // los ficheros de esta carpeta se copian en public/api/
+ |  └─ data.json
+ ├─ images -> Incluye todas las imágenes del proyecto.
+ |
+ ├─ styles-- Fichero principal (styles.scss) donde se unen todas las hojas de estilo parciales que se encuentran en las  carpetas de scss, además de los links externos a Google Fonts.
+ |  |
+ |  ├─ core - Incluye hoja de reset y variables.
+ |  ├─ layout - Incluye hojas de estilos del <footer>, <header> y lo específico del <body>.
+ |  └─ pages - Incluye las hojas de estilos que se corresponden al <main>, llamadas _section1 y _section2
+ |
+ └─ html -- Fichero principal (index.html) donde se unen todos los partials.
+    |
+    └─ partials- Ficheros .html que corresponden a diferentes las partes del index.html. Contamos con partials para el <header>, <main> (con sus subpartials bautizados como section1 y section2) y el <footer>.
+```
+
+### Sobre la página web:
+
+El footer y el header están maquetados utilizando flexbox y otras propiedades como position.
+La sección 1 (section1) se ha estructurado mediante el uso de margins y paddings.
+La sección 2 (section2) está realizada fundamentalmente mediante el sistema grid.
+
+### Más info:
 
 Para realizar el proyecto he utilizado el Adalaber Starter Kit, creado en **node y gulp**. Se trata de una **plantilla de proyecto con funcionalidades preinstaladas y preconfiguradas** que he adaptado a las necesidades de este proyecto en concreto .
 
@@ -17,9 +46,9 @@ Este Kit incluye un motor de plantillas HTML, el preprocesador SASS y un servido
 1. **Abre una terminal** en la carpeta raíz del repositorio.
 1. **Instala las dependencias** locales ejecutando en la terminal el comando:
 
-```bash
+``
 npm install
-```
+``
 
 Una vez hemos instalado las dependencias, vamos a arrancar el proyecto. **El proyecto hay que arrancarlo cada vez que nos pongamos a programar.** Para ello ejecuta el comando:
 
@@ -51,33 +80,6 @@ Y a continuación:
 1. Entra en la pestaña `settings` de tu repo.
 1. Y en el apartado de GitHub Pages activa la opción **master branch /docs folder**.
 1. Y ya estaría!!!
-
-## Estructura de carpetas
-
-Mi proyecto de web está estructurado de la siguiente manera:
-
-```
-src
- ├─ api // los ficheros de esta carpeta se copian en public/api/
- |  └─ data.json
- ├─ images -> Incluye todas las imágenes del proyecto.
- |
- ├─ styles-- Fichero principal (styles.scss) donde se unen todas las hojas de estilo parciales que se encuentran en las  carpetas de scss, además de los links externos a Google Fonts.
- |  |
- |  ├─ core - Incluye hoja de reset y variables.
- |  ├─ layout - Incluye hojas de estilos del <footer>, <header> y lo específico del <body>.
- |  └─ pages - Incluye las hojas de estilos que se corresponden al <main>, llamadas _section1 y _section2
- |
- └─ html -- Fichero principal (index.html) donde se unen todos los partials.
-    |
-    └─ partials- Ficheros .html que corresponden a diferentes las partes del index.html. Contamos con partials para el <header>, <main> (con sus subpartials bautizados como section1 y section2) y el <footer>.
-```
-
-### Sobre la página web:
-
-El footer y el header están maquetados utilizando flexbox y otras propiedades como position.
-La sección 1 (section1) se ha estructurado mediante el uso de margins y paddings.
-La sección 2 (section2) está realizada fundamentalmente mediante el sistema grid.
 
 ### Contacto:
 
