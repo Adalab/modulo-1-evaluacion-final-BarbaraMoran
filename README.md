@@ -1,9 +1,8 @@
-# Página web estática Anonymous Proxy
+# Página web Responsive Hieronymus Bosch (El Bosco)
 
-¡Hola! [Te presento](https://barbaramoran.github.io/static-website-anonymous-proxy/) mi prueba técnica de finalización del Módulo 1 de Adalab.
-Se trata de un proyecto de página web responsive realizada en **SCSS** y **HTML5** en base a un diseño dado a través de **Zeplin.**
+Se trata de un [proyecto de página web](https://barbaramoran.github.io/responsive-website-the-bosch/) responsive (mobile first) realizada en **SCSS** y **HTML5** en base a un diseño dado a través de **Zeplin.**
 
-<a target="_blank" href="https://barbaramoran.github.io/static-website-anonymous-proxy/"><img src="https://i.postimg.cc/ry1D3qBz/anonymous.jpg"/></a>
+<a target="_blank" href="https://barbaramoran.github.io/responsive-website-the-bosch/"><img src="https://i.ibb.co/syJmbfT/bosch.jpg"/></a>
 
 ## Estructura de carpetas
 
