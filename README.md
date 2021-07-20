@@ -1,6 +1,6 @@
 # Página web Responsive Hieronymus Bosch (El Bosco)
 
-Se trata de un [proyecto de página web](https://barbaramoran.github.io/responsive-website-the-bosch/) responsive (mobile first) realizada en **SCSS** y **HTML5** en base a un diseño dado a través de **Zeplin.**
+Se trata de un [proyecto de página web](https://barbaramoran.github.io/responsive-website-bosch/) responsive (mobile first) realizada en **SCSS** y **HTML5** en base a un diseño dado a través de **Zeplin.**
 
 <a target="_blank" href="https://barbaramoran.github.io/responsive-website-the-bosch/"><img src="https://i.ibb.co/syJmbfT/bosch.jpg"/></a>
 
